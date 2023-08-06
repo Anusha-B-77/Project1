@@ -1,0 +1,149 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+html {
+    background-image: url(img/abstract-digital-grid-black-background.avif);
+    background-size: cover;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 10px;
+}
+
+#h1 {
+    color: #fff;
+    margin:0px;
+    text-align: center;
+    font-size: 35px;
+    padding: 15px;
+    border-radius: 10px;
+}
+.containe{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 15px rgba(0,0,0,0.05);
+}
+#select {
+    font-size: 29px;
+    padding: 10px;
+    display: block;
+    margin-left: 560px;
+    margin-bottom: -80px;
+    position: absolute;
+    left: -140%;
+    color: #fff;
+}
+#next{
+    font-size: 15px;
+    margin: 0px;
+    padding: 15px;
+    margin-left: 660px;
+    margin-top: 50px;
+    width: 180px;
+    height: 18px;
+    position: absolute;
+    left: -140%;
+    background-color: rgb(33, 150, 171);
+    border: none;
+    border-radius: 10px;
+}
+.s{
+    text-decoration: none;
+    font-size: 20px;
+    display: block;
+    margin-top: -10px;
+    cursor: pointer;
+    color: #fff;
+}
+#branch {
+    padding: 8px;
+    border-radius: 10px;
+    display: inline;
+    margin-left: 55%;
+    margin-top: 10px;
+    position: absolute;
+    width: 150px;
+    
+}
+/*Login Page*/
+.body{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 10px;
+}
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 15px rgba(0,0,0,0.05);
+}
+.container h1 {
+    text-align: center;
+    padding: 10px 0;
+    color: #fff;
+    border-radius: 10px;
+
+}
+.container form {
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+.content{
+    padding: 10px;
+    font-size: 25px;
+    color: #fff;
+}
+#pt{
+    padding: 7px 70px;
+    border: none;
+    width: 350px;
+}
+.pass{
+    padding: 18px;
+    font-size: 18px;
+    margin-top: -9px;
+    margin-left: -6px;
+    color: #fff;
+}
+.pass:hover{
+    text-decoration: underline;
+    color: blue;
+}
+#sub {
+    padding: 18px;
+    width: 280px;
+    height: 28px;
+    font-size: 15px;
+    margin-top: -1px;
+    background-color: rgb(33, 150, 171);
+    border: none;
+    display: block;
+    margin-left: 30px;
+    margin-bottom: -11px;
+    border-radius: 5px;
+}
+.signup {
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+}
+.o {
+    text-decoration: none;
+    color: #fff;
+}
+.o:hover{
+    text-decoration: underline;
+    color: blue;
+}
